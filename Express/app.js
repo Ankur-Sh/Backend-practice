@@ -1,4 +1,5 @@
 const express = require("express");
+const path = require("path");
 const app = express();
 port = 1024;
 
@@ -7,6 +8,14 @@ app.use("/static", express.static("static"));
 
 //set the template engine as pug
 app.set("view engine", "pug");
+
+//Set the views directory
+app.set("views", path.join(__dirname, "views"));
+
+//Our pug demo endpoint
+app.get("/demo", (req, res) => {
+    res.status(200).render("demo", { title: "Hey", message: "Hello there!" });
+});
 
 app.get("/", (req, res) => {
     res.status(200).send("This is homepage of my first express app with Ankur");
