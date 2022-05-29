@@ -15,7 +15,7 @@ body::before {
 }
 
 nav {
-    background-color: grey;
+    background-color: #302d2d;
     padding: 3px 12px;
 }
 ul {
@@ -52,7 +52,7 @@ textarea {
     margin: 4px auto;
     display: block;
     padding: 5px 12px;
-    background: grey;
+    background: #302d2d;
     color: white;
     font-weight: bold;
     font-size: 15px;
