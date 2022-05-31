@@ -1,20 +1,11 @@
-doctype html
-html
-    head
-        title Ankur Dance Academy
-        style 
-            include ../static/style.css
-    body 
-        nav#navbar
-        ul
-        div#logo
-        img(src="/static/img/logo.jpg")
-        | HDA
-        li #[a(href="/") Home ]
-        li #[a(href="/") About]
-        li #[a(href="/") Services ]
-        li #[a(href="/") Class Info]
-        li #[a(href="/") Contact us]
+extends layout.pug
+block scripts
+  script(src='/static/index.js')
+  block style 
+  style 
+    include ../static/style.css
+    block content 
+   
 
         section#introSection
         div Welcome to Ankur's Dance Academy
@@ -55,9 +46,4 @@ div.card
                 img(src="/static/img/logo1.png",alt="Sponsor Image",class="spImage")
                 img(src="/static/img/logo2.png",alt="Sponsor Image",class="spImage")
                 img(src="/static/img/logo3.png",alt="Sponsor Image",class="spImage")
-
-        footer#footer
-         p Copyright © 2022 AnkurDanceAcademy.com | All rights reserved
-        script 
-        include ../static/index.js
-    
+  
