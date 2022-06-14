@@ -1,16 +1,15 @@
-extends layout.pug
+extends base.pug
 block scripts
   script(src='/static/index.js')
   block style 
-  style 
-    include ../static/style.css
+  link(rel="stylesheet", href="../static/style.css .css")
     block content 
-   
 
         section#introSection
         div Welcome to Ankur's Dance Academy
         div.small Eat Sleep Dance Repeat
-section#missionSection
+
+        section#missionSection
         h2 Our Mission
 div.card
     h3 Dance Perfection
@@ -21,16 +20,16 @@ div.card
             div.card-content
                 p This is the best dance academy of the universe.
 
-   div.card
+    div.card
         h3 Dance the way you like
-  div.card-box
+    div.card-box
             div.card-img
                 img(src="/static/img/dancer-02.png")
 
             div.card-content
                 p This is the best dance academy of the universe.
 
-   div.card
+    div.card
         h3 Expert Teaching 
           div.card-box
             div.card-img
@@ -39,11 +38,10 @@ div.card
             div.card-content
                 p This is the best dance academy of the universe.
 
-         section#sponsorsSection
+        section#sponsorsSection
         h2 Our Sponsors
             div#sponsors
                 img(src="/static/img/logo4.png",alt="Sponsor Image",class="spImage")
                 img(src="/static/img/logo1.png",alt="Sponsor Image",class="spImage")
                 img(src="/static/img/logo2.png",alt="Sponsor Image",class="spImage")
                 img(src="/static/img/logo3.png",alt="Sponsor Image",class="spImage")
-  
