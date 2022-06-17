@@ -48,7 +48,7 @@
     font-size: 65px;
     flex-direction: column;
     background: center/cover no-repeat url("/static/dance1.jpg");
-    height: 425px;
+    height: 480px;
     background-color: red;
 }
 #introSection div.small {
@@ -56,7 +56,7 @@
     padding: 5px;
 }
 #missionSection {
-    height: 300px;
+    height: 330px;
     width: 67%;
     margin: auto;
 }
@@ -100,8 +100,8 @@
 }
 
 #sponsorsSection {
-    height: 326px;
-    background-color: yellow;
+    height: 300px;
+    background-color: rgb(141, 141, 140);
 }
 #sponsorsSection h2 {
     font-size: 36px;
