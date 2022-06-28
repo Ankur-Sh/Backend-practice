@@ -15,7 +15,7 @@ app.set("views", path.join(__dirname, "views")); //Set the views directory
 app.get("/", (req, res) => {
     const con =
         "this is the best content on the internet so far so use it wisely";
-    const params = { title: "Pubg is the best Game", content: con };
+    const params = { title: "Gym Website", content: con };
     res.status(200).render("index.pug", params);
 });
 app.post("/", (req, res) => {
