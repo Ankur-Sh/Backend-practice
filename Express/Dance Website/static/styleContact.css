@@ -41,6 +41,7 @@ h1 {
     border: 0.2rem solid #575454;
     border-radius: 1rem;
     outline: none;
+    opacity: 0.85;
 }
 .btn {
     padding: 0.8rem 2.5rem;
@@ -63,4 +64,10 @@ h1 {
     cursor: pointer;
     outline: none;
     margin: 2rem;
+}
+#footer {
+    position: absolute;
+    bottom: 0rem;
+    right: 0rem;
+    font-size: 0.7rem;
 }
