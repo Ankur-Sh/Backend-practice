@@ -71,3 +71,12 @@ h1 {
     right: 0rem;
     font-size: 0.7rem;
 }
+#cburgerbtn {
+    position: absolute;
+    right: 2rem;
+    top: 2rem;
+    cursor: pointer;
+    height: 5rem;
+    width: 5rem;
+    color: rgba(0, 1, 95, 0.8);
+}
