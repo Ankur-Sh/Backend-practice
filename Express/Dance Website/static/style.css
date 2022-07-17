@@ -137,3 +137,35 @@
     height: 4rem;
     width: 4rem;
 }
+.card:hover {
+    background-color: rgb(239, 239, 239);
+    transform: scale(1.1); /*for increasing card size*/
+}
+.card {
+    transition: 0.3s; /*for increasing card size time*/
+}
+
+/*included css*/
+.icon-bar {
+    margin-top: 0.2rem;
+    position: absolute;
+    width: 5rem; /* Set a specific width */
+    background-color: rgb(31, 30, 30); /* Dark-grey background */
+}
+
+.icon-bar a {
+    display: block; /* Make the links appear below each other instead of side-by-side */
+    text-align: center; /* Center-align text */
+    padding: 1rem; /* Add some padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: white; /* White text color */
+    font-size: 2rem; /* Increased font-size */
+}
+
+.icon-bar a:hover {
+    background-color: #000; /* Add a hover color */
+}
+
+.active {
+    background-color: #04aa6d; /* Add an active/current color */
+}

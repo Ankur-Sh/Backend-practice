@@ -80,3 +80,28 @@ h1 {
     width: 5rem;
     color: rgba(0, 1, 95, 0.8);
 }
+
+/*included css*/
+.icon-bar {
+    z-index: 100;
+    position: absolute;
+    width: 5rem; /* Set a specific width */
+    background-color: rgba(126, 123, 123, 0.561); /* Dark-grey background */
+}
+
+.icon-bar a {
+    display: block; /* Make the links appear below each other instead of side-by-side */
+    text-align: center; /* Center-align text */
+    padding: 16px; /* Add some padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: white; /* White text color */
+    font-size: 2rem; /* Increased font-size */
+}
+
+.icon-bar a:hover {
+    background-color: rgba(0, 0, 0, 0.938); /* Add a hover color */
+}
+
+.active {
+    background-color: #04aa6d; /* Add an active/current color */
+}

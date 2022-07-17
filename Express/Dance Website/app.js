@@ -12,6 +12,7 @@ const contactSchema = new mongoose.Schema({
     phone: String,
     email: String,
     address: String,
+    password: String,
     desc: String,
 });
 const Contact = mongoose.model("Contact", contactSchema);
